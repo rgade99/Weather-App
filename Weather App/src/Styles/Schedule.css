@@ -1,0 +1,110 @@
+.events {
+    font-weight: 500;
+    line-height: 36px;
+}
+
+div {
+    font-family: 'Helvetica Neue', arial, sans-serif;
+}
+
+.value {
+    background-color: #fff;
+    display: block;
+    position: relative;
+    padding: 0.4em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: #000;
+    margin-left: 0.4em;
+    margin-bottom: 0.4em;
+    margin-right: 0.4em;
+    min-width: 110px;
+    min-height: 25px;
+    border-radius: 5px;
+}
+
+.label {
+    font-size: 14pt;
+    width: 100%;
+    display: block;
+    text-align: left;
+    position: relative;
+    transition: color 200ms ease-in;
+    overflow: hidden;
+    color: white;
+    text-shadow: 1px 1px 10px black; 
+}
+
+.days{
+    font-size: 13pt;
+}
+
+#dateTitle{
+    margin-top: -0.4em;
+}
+
+.schedule{
+    overflow-y: auto;
+    height: 510px;
+    margin-top: 0.4em;
+}
+
+.schedcontainer{
+    display: flex;
+}
+
+.left{
+    flex:1;
+    display: grid;
+    grid-template-rows: 20px 30px 50px;
+    grid-template-columns: 65px 50px 70px;
+    color: #fff;
+    text-shadow: 1px 1px 5px black; 
+}
+
+.icon{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    margin-left: 1em;
+}
+
+.icontext{
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.schedtemp{
+    grid-column: 3;
+    grid-row: 2 / span 2;
+    font-size: 16pt;
+    margin-top: 0.2em;
+}
+
+
+.icon{
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    margin-left: 1em;
+}
+
+.icontext{
+    grid-column: 2 / span 2;
+    grid-row: 3;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.schedtemp{
+    grid-column: 1;
+    grid-row: 2 / span 2;
+    font-size: 16pt;
+    margin-top: 0.2em;
+    margin-left: 1em;
+}
+
+
+
+.right{
+    flex: 1;
+}
